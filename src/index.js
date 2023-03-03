@@ -1,4 +1,5 @@
 //Aquivo central
+// ponto de ancoragem para os arquivos
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -20,4 +21,4 @@ ReactDOM.render(
         </Switch>
     </ BrowserRouter>
     , document.getElementById('root'));
-// registerServiceWorker();
+registerServiceWorker();
